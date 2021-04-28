@@ -70,7 +70,7 @@ section{
 .hero{
     margin-top: 0;
     height: 400px;
-    background: url(/Website/images/background.jpg);
+    background: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -134,13 +134,15 @@ section{
         ul{ 
             margin: 0;
             padding: 0;
-            li{
+            list-style-type: none;
+            li{     
                 cursor:pointer;
                 margin-left: 1em;
                 margin-bottom: 2em;
                 color:#1E90FF;
+                
                 &:hover{
-                    text-decoration: underline;
+                    color: gray;
                 }
             }
         }

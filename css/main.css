@@ -66,7 +66,7 @@ section {
 .hero {
   margin-top: 0;
   height: 400px;
-  background: url(/Website/images/background.jpg);
+  background: url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -131,6 +131,7 @@ section {
 .illustration .left-col ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .illustration .left-col ul li {
@@ -141,7 +142,7 @@ section {
 }
 
 .illustration .left-col ul li:hover {
-  text-decoration: underline;
+  color: gray;
 }
 
 .illustration .right-col {
